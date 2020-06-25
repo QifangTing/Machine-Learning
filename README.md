@@ -15,8 +15,9 @@
     观察输出的数据概率文件word_probability.txt，发现因为0.01与其他出现较少的频率相差过大。
     可以采用0.0001代替也可提升准确度在97+。用拉普拉斯平滑，默认最少出现一次得到的最后的准确度在98.21%
     
-    文件夹下data包含ham、spam、test的数据集、stop_chinese和已经训练生成的word_set,word_probability；
-           code中有train.py和test.py两个源代码文件； record包含一些截图。
+    文件军保存在Chinese_Spam_Filter文件夹中：
+    data包含ham、spam、test的数据集、stop_chinese和已经训练生成的word_set,word_probability；
+    code中有train.py和test.py两个源代码文件； record包含一些截图。
 
 ## 结课项目： 基于朴素贝叶斯分类器的语音性别识别
 
